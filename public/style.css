@@ -42,3 +42,15 @@ h3 {
     transform: translate(-50%, -50%);
     color: white;
 }
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+.circle-image {
+    width: 50%; 
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}

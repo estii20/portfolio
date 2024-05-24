@@ -54,3 +54,68 @@ h3 {
     border-radius: 50%;
     object-fit: cover;
 }
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #0f33ad;
+}
+.servicesText:hover {
+    border: 1px solid #0f33ad;
+}
+
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+.btn-blue {
+    background-color: #0f33ad;
+    text-decoration: none;
+}
+
+.btn-blue:hover,
+.btn-blue:visited,
+.btn-blue:active {
+    text-decoration: none; 
+}
+
+a.btn-blue {
+    text-decoration: none;
+}
+
+/* Ensure the card container is a flex container */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Make all cards take equal height */
+.card {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ensure the card body takes remaining height */
+.card-body {
+    flex: 1;
+}
+
+/* Set a fixed height for images and ensure they cover the area */
+.card-img-top {
+    height: 250px; 
+    object-fit: cover;
+}
+

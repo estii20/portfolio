@@ -103,7 +103,7 @@ a.btn-blue {
 
 /* Make all cards take equal height */
 .card {
-    height: 600px;
+    height: 650px;
     display: flex;
     flex-direction: column;
 }
@@ -117,5 +117,9 @@ a.btn-blue {
 .card-img-top {
     height: 250px; 
     object-fit: cover;
+}
+
+.contact {
+    background-color: #0f33ad;
 }
 

@@ -197,7 +197,8 @@
                                 about the pointe shoe they will purchase.
                                 </p>
                             <div class="text-center">
-                                <a href="https://perfect-pointes-d5136a797ac1.herokuapp.com/" class="btn btn-primary btn-blue text-white">Link</a>
+                                <a href="https://perfect-pointes-d5136a797ac1.herokuapp.com/" 
+                                class="btn btn-primary btn-blue text-white mt-auto">Link</a>
                             </div>
                         </div>
                     </div>
@@ -213,7 +214,8 @@
                                 service offered information.     
                             </p>
                             <div class="text-center">
-                                <a href="https://voltapark.pl/" class="btn btn-primary btn-blue text-white">Link</a>
+                                <a href="https://voltapark.pl/" 
+                                class="btn btn-primary btn-blue text-white mt-auto">Link</a>
                             </div>
                         </div>
                     </div>
@@ -231,7 +233,8 @@
                                 They can also add, edit delete blog posts when registered.
                             </p>
                             <div class="text-center">
-                                <a href="https://dolce-vita-blog-d2c3285a70fd.herokuapp.com/" class="btn btn-primary btn-blue text-white">Link</a>
+                                <a href="https://dolce-vita-blog-d2c3285a70fd.herokuapp.com/" 
+                                class="btn btn-primary btn-blue text-white mt-auto">Link</a>
                             </div>
                         </div>
                     </div>
@@ -251,7 +254,8 @@
                                 Ideal for students and teachers who learn and teach remotely.
                             </p>
                             <div class="text-center">
-                                <a href="https://estii20.github.io/water-cycle-quiz/" class="btn btn-primary btn-blue text-white">Link</a>
+                                <a href="https://estii20.github.io/water-cycle-quiz/" 
+                                class="btn btn-primary btn-blue text-white mt-auto">Link</a>
                             </div>
                         </div>
                     </div>
@@ -267,7 +271,8 @@
                                 Fruili-Venezia Guilia, Italy. There is a location page with google map embeded
                                 and a contact form for visitors to get in touch</p>
                             <div class="text-center">
-                                <a href="https://estii20.github.io/aquileia-roman-city/" class="btn btn-primary btn-blue text-white">Link</a>
+                                <a href="https://estii20.github.io/aquileia-roman-city/" 
+                                class="btn btn-primary btn-blue text-white mt-auto">Link</a>
                             </div>
                         </div>
                     </div>
@@ -283,12 +288,49 @@
                                 for each department. Namely, the Front Desk, the Restaurant, 
                                 the Spa and the Hotel Room and also asks if they wish to receive special offers.</p>
                             <div class="text-center">
-                                <a href="https://heroku.com/" class="btn btn-primary btn-blue text-white">Link</a>
+                                <a href="https://heroku.com/" class="btn btn-primary btn-blue text-white mt-auto">Link</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" 
+                            frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Monfalcone,+Italy&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                        <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Me</button>              
+                </div>
+
+            </div>
+        </div>
     </section>
 
     <!-- load javascript after loading all html content -->

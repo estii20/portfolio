@@ -20,7 +20,7 @@ h3 {
 }
 
 /* spacing on all sections */
-#about, #services, #portfolio, #contact {
+#services, #portfolio, #contact, #faq {
     margin-top: 4rem;
     padding-top: 4rem;
 }
@@ -51,9 +51,17 @@ h3 {
     color: white;
 }
 
+/* Navbar toggler button */
+.custom-toggler .navbar-toggler-icon {
+    color: white; /* Change the color to white or any other color you prefer */
+}
+
 /* about section image css */
+
 .imageAboutPage {
-    width: 100%;
+    width: 50%;
+    max-width: 50%;
+    height: auto;
 }
 
 .circle-image {
@@ -63,11 +71,13 @@ h3 {
     object-fit: cover;
 }
 
+
 /* services section css */
-.servicesText.card {
-    height: 280px;
+.services-text.card {
+    height: 320px;
     cursor: pointer;
   }
+
 .servicesIcon {
     font-size: 36px;
     text-align: center;

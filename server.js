@@ -1,7 +1,13 @@
 const express = require('express');
-const app = express();
 const path = require('path');
+require('dotenv').config(); // Ensure dotenv is required
+
+const app = express();
 const port = process.env.PORT || 3000;
+const apiKey = process.env.GOOGLE_MAPS_API_KEY; // Access the API key from environment variables
+
+// Debugging statement to ensure the API key is loaded
+console.log(`Google Maps API Key: ${apiKey}`);
 
 // Serve static files from the "public" directory
 app.use(express.static('public'));
@@ -19,7 +25,6 @@ app.get('/map', (req, res) => {
     </iframe>
   `);
 });
-
 
 // Start the server
 app.listen(port, () => {

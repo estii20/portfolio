@@ -11,6 +11,16 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
+// Serve the map with the API key
+app.get('/map', (req, res) => {
+  res.send(`
+    <iframe style="height:100%;width:100%;border:0;" 
+      frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Monfalcone,+Italy&key=${apiKey}">
+    </iframe>
+  `);
+});
+
+
 // Start the server
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}/`);

@@ -30,10 +30,10 @@ h3 {
 
 /* hero background image */
 .bgimage {
-    height:100vh;
+    height: 100vh;
     background: url('../public/images/heroImage.jpg') no-repeat center center fixed;
-    background-size:cover;
-    position:relative;
+    background-size: cover;
+    position: relative;
 }
 /* text css above hero image*/
 .hero_title {

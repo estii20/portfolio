@@ -31,7 +31,7 @@ h3 {
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('public/images/heroImage.jpg') no-repeat center center fixed;
+    background: url('../public/images/heroImage.jpg') no-repeat center center fixed;
     background-size:cover;
     position:relative;
 }

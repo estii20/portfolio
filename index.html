@@ -441,44 +441,37 @@
 
     <!-- contact section-->
     <section id="contact">
-        <div class="container mt-3 contactContent">
-            <h1 class="text-center">Contact Me</h1>
+        <div class="container mt-5 contactContent">
+            <h1 class="text-center mb-5">Contact Me</h1>
 
-            <div class="row mt-4">
+            <div class="row justify-content-center">
+                <!-- Form Section -->
                 <div class="col-lg-6">
-                    <!-- google map Monfalcone, Italy  -->
-                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
-                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
-                            <iframe 
-                                style="height:100%;width:100%;border:0;" 
-                                frameborder="0" 
-                                src="/maps?location=Monfalcone, Italy">
-                            </iframe>
-                        </div>
-                        <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">
-                            https://www.embed-map.com</a>
-                        <style>#embedmap-canvas img{
-                            max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;
-                        }
-                        </style>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                <!-- form fields -->
+                    <!-- form fields -->
                     <form action="https://formspree.io/f/mzbnqnyk" id="my-form" method="POST" enctype="multipart/form-data">
-                        <input type="text" name="name" class="form-control form-control-lg" placeholder="Name" required>
-                        <input type="email" name="email" class="form-control mt-3" placeholder="Email" required>
-                        <input type="text" name="subject" class="form-control mt-3" placeholder="Subject" required>
-                        <div class="mb-3 mt-3">
-                        <textarea class="form-control" rows="5" id="comment" name="message" placeholder="Project Details" required></textarea>
+                        <div class="mb-3">
+                            <input type="text" name="name" class="form-control form-control-lg" placeholder="Your Name" required>
                         </div>
-                          <button type="submit" class="btn btn-success mt-3">Contact Me</button>
+                        <div class="mb-3">
+                            <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" id="comment" name="message" placeholder="Project Details" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
                     </form>
-                    <div id="my-form-status" class="mt-3"></div>
+                    <div id="my-form-status" class="mt-3 text-center"></div>
+                </div>
+
+                <!-- Decorative Image Section -->
+                <div class="col-lg-6 text-center">
+                    <img src="public/images/contact.png" class="img-fluid" alt="Contact Image">
                 </div>
             </div>
         </div>
-    </div>
     </section>
 
     <!-- footer section-->

@@ -1,13 +1,21 @@
-const express = require('express');
-const path = require('path');
-require('dotenv').config(); // Ensure dotenv is required
+import express from 'express';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import dotenv from 'dotenv';
+import fetch from 'node-fetch';
+
+dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 3000;
-const apiKey = process.env.GOOGLE_MAPS_API_KEY; // Access the API key from environment variables
+const apiKey = process.env.GOOGLE_MAPS_API_KEY;
 
 // Debugging statement to ensure the API key is loaded
 console.log(`Google Maps API Key: ${apiKey}`);
+
+// Helper to get __dirname in ES module
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Serve static files from the "public" directory
 app.use(express.static('public'));

@@ -1,112 +1,138 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Portfolio
 
-Welcome USER_NAME,
+This is a portfolio website showcasing my latest projects and information about me and how to get in touch.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Portfolio Project
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **April 26, 2024**
+[Live Site](https://estii20.github.io/portfolio/#portfolio)
 
-## Gitpod Reminders
+[Website Mock-up](https://ui.dev/amiresponsive?url=https://estii20.github.io/portfolio/#portfolio)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![Portfolio](public/images/documentation/am_i_responsive.png "Am I Responsive Mockup of Portfolio")
 
-`python3 -m http.server`
+## Table of contents
 
-A blue button should appear to click: _Make Public_,
+- [UX Design](#ux-design)
+- [Features](#features)
+- [Languages Used](#languages-used)
+- [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
+- [Testing](#testing)
+- [Technologies Used](#technologies-used)
+- [Deployment and Publishing](#deployment-and-publishing)
+- [Resources](#resources)
+- [Credits](#credits)
+- [Acknowledgements](#acknowledgements)
 
-Another blue button should appear to click: _Open Browser_.
+### UX Design
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+A clean professional look that combines a simple navigation so that the user can locate the information they require.
 
-A blue button should appear to click: _Make Public_,
+### Features
 
-Another blue button should appear to click: _Open Browser_.
+Navbar
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Navbar](public/images/documentation/navbar.png "Navbar of Portfolio")
 
-To log into the Heroku toolbelt CLI:
+Hero image
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Hero](public/images/documentation/hero.png "Hero Image of Portfolio")
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+About Section
 
-------
+![About](public/images/documentation/about.png "About section of Portfolio")
 
-## Release History
+Services Section
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![Services](public/images/documentation/services.png "Services section  of Portfolio")
 
-**April 26 2024:** Update node version to 16
+Portfolio Section
 
-**September 20 2023:** Update Python version to 3.9.17.
+![Portfolio](public/images/documentation/portfolio.png "Portfolio section of Portfolio")
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+FAQs Section
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![FAQs](public/images/documentation/faqs.png "FAQs section of Portfolio")
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Contact Section
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![Contact](public/images/documentation/contact.png "Contact section of Portfolio")
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Footer 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![Footer](public/images/documentation/footer.png "Footer of Portfolio")
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Languages Used
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- HTML5
+- CSS3
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Frameworks, Libraries and Programs Used
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- [Google Fonts](https://fonts.google.com/) used for the fonts.
+- [Font Awesome](https://fontawesome.com/) was used to add icons for aesthetic and UX purposes.
+- [Git](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+- [GitHub](https://github.com/)  is used as the repository for the project code after being pushed from Git.
+- [Django](https://www.djangoproject.com/) was used as the framework to support rapid and secure development of the application.
+- [Bootstrap](https://getbootstrap.com/) was used to build responsive web pages
+- [GitPod](https://gitpod.io/) IDE used to complete the project.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Testing
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Browser Compatibility PASSED
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Browser Compatibility checks were run using BrowserStack and my computer. The results are:
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Firefox - ☑
 
-------
+Chrome - ☑
 
-## FAQ about the uptime script
+Opera - ☑
 
-**Why have you added this script?**
+Microsoft Edge - ☑
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+Safari - ☑
 
-**How will this affect me?**
+__Accessibility Testing__
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+From using Lighthouse I was able to check the accessibility and SEO of the website. 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+By utilising this in DevTools I was able to generate reports for both desktop and mobile. By analysing these reports I was able to make alterations in both the HTML and CSS code to improve the accessibility of the application.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+Navigation Testing
 
-**So….?**
+ - Mobile/Tablet Menu PASSED
+ - The hamburger menu icon is visible and functions
+ - Appropriate links are shown/hidden depending on user
+ - All text and icons are visible and appropriate sizes
+ - All navigation links successfully direct the user to corresponding pages
+ - Desktop Menu PASSED
+ - All links highlight and apply intended CSS
+ - Appropriate links are shown/hidden depending on user
+ - All text and icons are visible and appropriate sizes
+ - All navigation links successfully direct the user to corresponding pages
+ - Menu successfully opens and closes on press/click
+ - All buttons lead to corresponding pages
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Technologies Used
 
-**Can I opt out?**
+# Resources
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+[Bootstrap 5 documentation](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+[Favicon](https://favicon.io/) to generate the favicon.
 
-**Anything more?**
+### Deployment and Publishing
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- Forking and Cloning
+To work on your own copy of the code, follow these steps for forking and cloning via GitHub:
+In the repository, locate the 'Fork' button at the top right-hand side, adjacent to 'Star'. Click on it to create a new repository, forked from the original.
 
----
+- To clone the repository, you have two options:
+Within the repository, click on the 'Code' dropdown located next to 'Add File' on the right (underneath the Settings tab). From there, choose the option to download all files and save a local copy.
+Alternatively, within the same 'Code' dropdown, opt to open the code with GitHub Desktop and proceed with your work from there.
 
-Happy coding!
+### Resources
+
+### Credits
+
+### Acknowledgements

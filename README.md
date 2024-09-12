@@ -20,8 +20,7 @@ This is a portfolio website showcasing my latest projects and information about 
 - [Technologies Used](#technologies-used)
 - [Deployment and Publishing](#deployment-and-publishing)
 - [Resources](#resources)
-- [Credits](#credits)
-- [Acknowledgements](#acknowledgements)
+- [Credits and Acknowledgements](#credits-and-acknowledgements)
 
 ### UX Design
 
@@ -131,8 +130,6 @@ In the repository, locate the 'Fork' button at the top right-hand side, adjacent
 Within the repository, click on the 'Code' dropdown located next to 'Add File' on the right (underneath the Settings tab). From there, choose the option to download all files and save a local copy.
 Alternatively, within the same 'Code' dropdown, opt to open the code with GitHub Desktop and proceed with your work from there.
 
-### Resources
+### Credits and Acknowledgements
 
-### Credits
-
-### Acknowledgements
+[Free Code Camp how to create a portfolio website using HTML, CSS, JavaScript and Bootstrap](https://www.freecodecamp.org/news/how-to-create-a-portfolio-website-using-html-css-javascript-and-bootstrap/)
